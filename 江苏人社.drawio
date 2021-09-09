@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-09T14:15:41.436Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="45wSE8wvq-kfLDkkgFFZ" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-09T14:19:33.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="DgPDKdSLr0g56mV9bGKM" version="15.0.6" type="github">
   <diagram id="CVyKIgdosdVI86GHUStq" name="第 1 页">
     <mxGraphModel dx="1230" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,17 +34,17 @@
         <mxCell id="AFT9mNQhtUbouChxFCgF-6" value="&lt;div&gt;&lt;span&gt;报表展示，数据收集 10.79.138.16 8C/32G/500G&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; IN tcp:8080 8588 10201 18848&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
           <mxGeometry x="210" y="300" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="AFT9mNQhtUbouChxFCgF-8" value="10.79.138.9 16C/64G/2.5T tcp:20403, 11603, 11202,8588, 20602" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="400" y="318.5" width="93" height="93" as="geometry" />
+        <mxCell id="AFT9mNQhtUbouChxFCgF-8" value="10.79.138.9 16C/64G/2.5T tcp:20403, 11603, 8588, 20602" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="318.5" width="91.5" height="91.5" as="geometry" />
         </mxCell>
-        <mxCell id="AFT9mNQhtUbouChxFCgF-9" value="&lt;span&gt;10.79.138.10 16C/64G/2.5T&amp;nbsp; &amp;nbsp;&lt;/span&gt;tcp:20403, 11603, 11202,8588, 20602&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="500" y="320" width="91.5" height="91.5" as="geometry" />
+        <mxCell id="AFT9mNQhtUbouChxFCgF-9" value="&lt;span&gt;10.79.138.10 16C/64G/2.5T&amp;nbsp; &amp;nbsp;&lt;/span&gt;tcp:20403, 11603, 8588, 20602&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="AFT9mNQhtUbouChxFCgF-10" value="&lt;span&gt;10.79.138.5 32C/64G/2T tcp 10499,10299&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="691" y="318.5" width="80" height="80" as="geometry" />
+        <mxCell id="AFT9mNQhtUbouChxFCgF-10" value="&lt;span&gt;10.79.138.5 32C/64G/2T tcp 10499,10299 20403&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="700" y="320" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="AFT9mNQhtUbouChxFCgF-11" value="&lt;span&gt;10.79.138.4 32C/64G/500G tcp 10499,10299&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="600" y="320" width="80" height="80" as="geometry" />
+        <mxCell id="AFT9mNQhtUbouChxFCgF-11" value="&lt;span&gt;10.79.138.4 32C/64G/500G tcp 10499,10299, 20403&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="90" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
