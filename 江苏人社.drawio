@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T03:51:05.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="Ep--lBlYxZuTdBCZL800" version="15.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-10T06:11:58.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="zjtedGMCyv4Yy_lAO4SP" version="15.1.2" type="github">
   <diagram id="CVyKIgdosdVI86GHUStq" name="第 1 页">
     <mxGraphModel dx="1025" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -179,6 +179,15 @@
             <mxPoint x="450" y="570" as="sourcePoint" />
             <mxPoint x="700" y="570" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-Cqr_waZl-emmHEp5tUH-41" value="10.79.138.6 16c/64G/2T&amp;nbsp; &amp;nbsp; tcp:8081,8090,8091&lt;br&gt;,10106" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="660" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-Cqr_waZl-emmHEp5tUH-42" value="10.79.138.8 16c/64G/2T&amp;nbsp; &amp;nbsp; tcp:8081,8090,8091&lt;br&gt;,10106" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="660" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-Cqr_waZl-emmHEp5tUH-43" value="10.79.138.8 16c/64G/2T&amp;nbsp; &amp;nbsp; tcp:8081,8090,8091&lt;br&gt;,10106" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="660" width="110" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
