@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-06T06:22:21.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="HOw1mBFk-wHAqQG_B8pG" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-06T06:32:20.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="IA1zV5KZ7cG7MIx05bD7" version="17.4.0" type="github">
   <diagram id="SvJgy_EDaJB7Ie1m7O20" name="第 1 页">
     <mxGraphModel dx="1230" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -108,7 +108,7 @@
         <mxCell id="wUyM80GitC7EcGV69rew-45" value="app-01/common-01&lt;br&gt;rum-application&lt;br&gt;16C32G184G&lt;br&gt;tcp-IN:10199/10299/&lt;br&gt;10100/10200/10101/&lt;br&gt;10102" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
           <mxGeometry x="310" y="540" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="wUyM80GitC7EcGV69rew-46" value="&lt;span&gt;app-02/common-02&lt;/span&gt;&lt;br&gt;&lt;span&gt;rum-application&lt;br&gt;&lt;/span&gt;mysql,redis&lt;br&gt;&lt;span&gt;16C32G184G&lt;/span&gt;&lt;br&gt;&lt;span&gt;tcp-IN:10199/10299/&lt;br&gt;10100/10200/10101/&lt;br&gt;10102/3306/6379&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
+        <mxCell id="wUyM80GitC7EcGV69rew-46" value="&lt;span&gt;app-02/common-02&lt;/span&gt;&lt;br&gt;&lt;span&gt;rum-application&lt;/span&gt;&lt;br&gt;&lt;span&gt;16C32G184G&lt;/span&gt;&lt;br&gt;&lt;span&gt;tcp-IN:10199/10299/&lt;br&gt;10100/10200/10101/&lt;br&gt;10102&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
           <mxGeometry x="470" y="540" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="wUyM80GitC7EcGV69rew-47" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#0066CC;" edge="1" parent="1">
@@ -139,10 +139,10 @@
             <mxPoint x="630" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wUyM80GitC7EcGV69rew-52" value="brs-01/common-03&lt;br&gt;rum-application&lt;br&gt;16C32G184G&lt;br&gt;tcp-IN:8588/10103/&lt;br&gt;10104/10105/10106/&lt;br&gt;10107" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
+        <mxCell id="wUyM80GitC7EcGV69rew-52" value="brs-01/common-03&lt;br&gt;rum-application&lt;br&gt;mysql,redis-master&lt;br&gt;16C32G184G&lt;br&gt;tcp-IN:8588/10103/&lt;br&gt;10104/10105/10106/&lt;br&gt;10107/3306/6379" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
           <mxGeometry x="670" y="540" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="wUyM80GitC7EcGV69rew-53" value="&lt;span&gt;brs-02/common-04&lt;/span&gt;&lt;br&gt;&lt;span&gt;rum-application&lt;/span&gt;&lt;br&gt;&lt;span&gt;16C32G184G&lt;br&gt;&lt;/span&gt;mysql,redis&lt;br&gt;&lt;span&gt;tcp-IN:8588/10103/&lt;br&gt;10104/10105/10106/&lt;br&gt;10107/3306/6379&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
+        <mxCell id="wUyM80GitC7EcGV69rew-53" value="&lt;span&gt;brs-02/common-04&lt;/span&gt;&lt;br&gt;&lt;span&gt;rum-application&lt;/span&gt;&lt;br&gt;&lt;span&gt;16C32G184G&lt;br&gt;&lt;/span&gt;mysql,redis-slave&lt;br&gt;&lt;span&gt;tcp-IN:8588/10103/&lt;br&gt;10104/10105/10106/&lt;br&gt;10107/3306/6379&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
           <mxGeometry x="840" y="540" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="wUyM80GitC7EcGV69rew-54" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#0066CC;" edge="1" parent="1">
@@ -175,13 +175,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wUyM80GitC7EcGV69rew-62" value="es/nbfs-01&lt;br&gt;elasticsaerch&lt;br&gt;tcp-IN:&lt;br&gt;9200/9300/9400" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
+        <mxCell id="wUyM80GitC7EcGV69rew-62" value="es/nbfs-01&lt;br&gt;elasticsaerch&lt;br&gt;16C32G984G&lt;br&gt;tcp-IN:&lt;br&gt;9200/9300/9400" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
           <mxGeometry x="431" y="800" width="123" height="123" as="geometry" />
         </mxCell>
-        <mxCell id="wUyM80GitC7EcGV69rew-63" value="&lt;span&gt;es/nbfs-02&lt;/span&gt;&lt;br&gt;&lt;span&gt;elasticsaerch&lt;/span&gt;&lt;br&gt;&lt;span&gt;tcp-IN:&lt;/span&gt;&lt;br&gt;&lt;span&gt;9200/9300/9400&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
+        <mxCell id="wUyM80GitC7EcGV69rew-63" value="&lt;span&gt;es/nbfs-02&lt;/span&gt;&lt;br&gt;&lt;span&gt;elasticsaerch&lt;br&gt;&lt;/span&gt;16C32G984G&lt;br&gt;&lt;span&gt;tcp-IN:&lt;/span&gt;&lt;br&gt;&lt;span&gt;9200/9300/9400&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
           <mxGeometry x="570" y="800" width="123" height="123" as="geometry" />
         </mxCell>
-        <mxCell id="wUyM80GitC7EcGV69rew-64" value="&lt;span&gt;es/nbfs-03&lt;/span&gt;&lt;br&gt;&lt;span&gt;elasticsaerch&lt;/span&gt;&lt;br&gt;&lt;span&gt;tcp-IN:&lt;/span&gt;&lt;br&gt;&lt;span&gt;9200/9300/9400&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
+        <mxCell id="wUyM80GitC7EcGV69rew-64" value="&lt;span&gt;es/nbfs-03&lt;/span&gt;&lt;br&gt;&lt;span&gt;elasticsaerch&lt;br&gt;&lt;/span&gt;16C32G984G&lt;br&gt;&lt;span&gt;tcp-IN:&lt;/span&gt;&lt;br&gt;&lt;span&gt;9200/9300/9400&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
           <mxGeometry x="710" y="800" width="123" height="123" as="geometry" />
         </mxCell>
         <mxCell id="wUyM80GitC7EcGV69rew-65" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#0066CC;" edge="1" parent="1">
@@ -207,6 +207,36 @@
             <mxPoint x="399.5" y="945" as="sourcePoint" />
             <mxPoint x="399.5" y="780" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wUyM80GitC7EcGV69rew-70" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="700" as="sourcePoint" />
+            <mxPoint x="480" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wUyM80GitC7EcGV69rew-72" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="700" as="sourcePoint" />
+            <mxPoint x="790" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wUyM80GitC7EcGV69rew-74" value="druid/hadoop-01/kafka-01&lt;br&gt;druid/hadoop/kafka&lt;br&gt;16C32G984G&lt;br&gt;tcp-IN:8081/8090/8082/&lt;br&gt;9092/2181" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1060" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wUyM80GitC7EcGV69rew-77" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="620" as="sourcePoint" />
+            <mxPoint x="650" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wUyM80GitC7EcGV69rew-79" value="druid/hadoop-02/kafka-02&lt;br&gt;druid/hadoop/kafka&lt;br&gt;16C32G984G&lt;br&gt;tcp-IN:8081/8090/8082/&lt;br&gt;9092/2181" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1060" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wUyM80GitC7EcGV69rew-80" value="druid/hadoop-03/kafka-03&lt;br&gt;druid/hadoop/kafka&lt;br&gt;16C32G984G&lt;br&gt;tcp-IN:8081/8090/8082/&lt;br&gt;9092/2181" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1060" width="170" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
