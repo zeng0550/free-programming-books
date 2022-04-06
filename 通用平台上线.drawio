@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-06T07:30:11.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="ead3GNUmohJIYC2kOoIS" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-06T08:40:57.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="d_qdBon-hM6wHFdDzOA5" version="17.4.0" type="github">
   <diagram id="SvJgy_EDaJB7Ie1m7O20" name="第 1 页">
     <mxGraphModel dx="1230" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -81,31 +81,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wUyM80GitC7EcGV69rew-21" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;nginx&lt;br&gt;2C4G84G&lt;br&gt;tcp-IN：80/8080&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#0066CC;strokeWidth=1;opacity=90;" parent="1" vertex="1">
+        <mxCell id="wUyM80GitC7EcGV69rew-21" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;nginx-01&lt;br&gt;2C4G84G&lt;br&gt;tcp-IN：80&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#0066CC;strokeWidth=1;opacity=90;" parent="1" vertex="1">
           <mxGeometry x="445" y="370" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wUyM80GitC7EcGV69rew-25" value="User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="810" y="380" width="50" height="20" as="geometry" />
+          <mxGeometry x="125" y="550" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="wUyM80GitC7EcGV69rew-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#0066CC;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="835" y="439.5" as="sourcePoint" />
-            <mxPoint x="635" y="439.5" as="targetPoint" />
+            <mxPoint x="160" y="610" as="sourcePoint" />
+            <mxPoint x="310" y="609.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="635" y="439.5" />
+              <mxPoint x="310" y="609.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="wUyM80GitC7EcGV69rew-26" value="" style="shape=actor;whiteSpace=wrap;html=1;fontSize=14;fontColor=#0066CC;strokeWidth=1;opacity=90;" parent="1" vertex="1">
-          <mxGeometry x="820" y="410" width="20" height="40" as="geometry" />
+          <mxGeometry x="140" y="580" width="20" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wUyM80GitC7EcGV69rew-38" value="&lt;b&gt;页面查看：8080&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="660" y="410" width="120" height="20" as="geometry" />
+          <mxGeometry x="170" y="590" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="wUyM80GitC7EcGV69rew-41" value="&lt;b&gt;SDK和WEB数据上传：端口 80&amp;nbsp;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="410" y="290" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wUyM80GitC7EcGV69rew-45" value="app-01/common-01&lt;br&gt;rum-application&lt;br&gt;16C32G184G&lt;br&gt;tcp-IN:10199/10299/&lt;br&gt;10100/10200/10101/&lt;br&gt;10102" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" parent="1" vertex="1">
+        <mxCell id="wUyM80GitC7EcGV69rew-45" value="app-01/common-01&lt;br&gt;rum-application/nginx&lt;br&gt;-02&lt;br&gt;16C32G184G&lt;br&gt;tcp-IN:10199/10299/&lt;br&gt;10100/10200/10101/&lt;br&gt;10102/8080" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" parent="1" vertex="1">
           <mxGeometry x="310" y="540" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="wUyM80GitC7EcGV69rew-46" value="&lt;span&gt;app-02/common-02&lt;/span&gt;&lt;br&gt;&lt;span&gt;rum-application&lt;/span&gt;&lt;br&gt;&lt;span&gt;16C32G184G&lt;/span&gt;&lt;br&gt;&lt;span&gt;tcp-IN:10199/10299/&lt;br&gt;10100/10200/10101/&lt;br&gt;10102&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;fontColor=#000000;strokeWidth=1;opacity=90;" parent="1" vertex="1">
