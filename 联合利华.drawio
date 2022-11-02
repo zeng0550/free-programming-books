@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T01:15:48.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="cVKpOHjvQQ1RoMGb5SFQ" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T01:26:36.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="Ou339jJh3M6DGcvQrCAg" version="18.1.3" type="github">
   <diagram id="SmYzbQBRCDLOT5kRqiNP" name="第 1 页">
-    <mxGraphModel dx="984" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1118" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3pEdMvApePRyuASavdpS-1" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;报表服务器&lt;br style=&quot;font-size: 11px;&quot;&gt;16c/64G/300G&lt;br style=&quot;font-size: 11px;&quot;&gt;涉及服务&lt;/font&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;：nginx，apm产品线服务，app，browser，infra，visboard，mp各产品线api服务&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="240" width="230" height="160" as="geometry" />
+          <mxGeometry x="490" y="240" width="230" height="160" as="geometry" />
         </mxCell>
         <mxCell id="3pEdMvApePRyuASavdpS-2" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_server;" vertex="1" parent="1">
-          <mxGeometry x="340" y="260" width="34" height="40" as="geometry" />
+          <mxGeometry x="500" y="250" width="42.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3pEdMvApePRyuASavdpS-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=11;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="430" as="sourcePoint" />
-            <mxPoint x="280" y="210" as="targetPoint" />
+            <mxPoint x="450" y="430" as="sourcePoint" />
+            <mxPoint x="450" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3pEdMvApePRyuASavdpS-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=11;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="430" as="sourcePoint" />
-            <mxPoint x="600" y="210" as="targetPoint" />
+            <mxPoint x="770" y="430" as="sourcePoint" />
+            <mxPoint x="770" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3pEdMvApePRyuASavdpS-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=11;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="210" as="sourcePoint" />
-            <mxPoint x="600" y="210" as="targetPoint" />
+            <mxPoint x="450" y="210" as="sourcePoint" />
+            <mxPoint x="770" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3pEdMvApePRyuASavdpS-7" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 21px;&quot;&gt;数据中心&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="3pEdMvApePRyuASavdpS-5">
@@ -35,15 +35,33 @@
         </mxCell>
         <mxCell id="3pEdMvApePRyuASavdpS-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=11;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="430" as="sourcePoint" />
-            <mxPoint x="600" y="430" as="targetPoint" />
+            <mxPoint x="450" y="430" as="sourcePoint" />
+            <mxPoint x="770" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3pEdMvApePRyuASavdpS-9" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="640" y="40" width="220" height="110" as="geometry" />
+        <mxCell id="3pEdMvApePRyuASavdpS-9" value="&lt;br&gt;&lt;br&gt;前端应用数据采集" style="ellipse;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="840" y="40" width="220" height="170" as="geometry" />
         </mxCell>
         <mxCell id="3pEdMvApePRyuASavdpS-10" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.mobile_device;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="680" y="50" width="50" height="40" as="geometry" />
+          <mxGeometry x="880" y="70" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3pEdMvApePRyuASavdpS-13" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.corporate_device;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="970" y="70" width="60" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3pEdMvApePRyuASavdpS-14" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontSize=19;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3pEdMvApePRyuASavdpS-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="120" as="sourcePoint" />
+            <mxPoint x="730" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pEdMvApePRyuASavdpS-15" value="Server端应用数据采集" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="50" y="55" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3pEdMvApePRyuASavdpS-17" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.server_2;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="130" y="255" width="70" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="3pEdMvApePRyuASavdpS-18" value="Collector" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="95" y="325" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
