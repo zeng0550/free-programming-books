@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T01:55:12.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="Tf1EE0QzUR6ULncH6Z_V" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T01:58:41.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="CjC1xb2gkFo_8KSAozoK" version="18.1.3" type="github">
   <diagram id="SmYzbQBRCDLOT5kRqiNP" name="第 1 页">
     <mxGraphModel dx="1230" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3pEdMvApePRyuASavdpS-1" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;报表服务器&lt;br style=&quot;font-size: 11px;&quot;&gt;16c/64G/300G&lt;br style=&quot;font-size: 11px;&quot;&gt;涉及服务&lt;/font&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;：nginx，apm产品线服务，app，browser，infra，visboard，mp各产品线api服务&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="250" width="180" height="150" as="geometry" />
+        <mxCell id="3pEdMvApePRyuASavdpS-1" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;涉及服务&lt;/font&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;：nginx，apm产品线服务，app，browser，infra，visboard，mp各产品线api服务&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="230" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="3pEdMvApePRyuASavdpS-2" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_server;" vertex="1" parent="1">
-          <mxGeometry x="500" y="260" width="42.5" height="50" as="geometry" />
+          <mxGeometry x="500" y="240" width="42.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3pEdMvApePRyuASavdpS-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=11;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -98,8 +98,8 @@
             <mxPoint x="450" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3pEdMvApePRyuASavdpS-30" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;报表服务器&lt;br style=&quot;font-size: 11px;&quot;&gt;16c/64G/300G&lt;br style=&quot;font-size: 11px;&quot;&gt;涉及服务&lt;/font&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;：nginx，apm产品线服务，app，browser，infra，visboard，mp各产品线api服务&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="250" width="180" height="150" as="geometry" />
+        <mxCell id="3pEdMvApePRyuASavdpS-30" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;涉及服务&lt;/font&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;：nginx，apm产品线服务，app，browser，infra，visboard，mp各产品线api服务&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="230" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="3pEdMvApePRyuASavdpS-31" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.web_application_firewall_2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="770" y="70" width="60" height="60" as="geometry" />
@@ -117,7 +117,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3pEdMvApePRyuASavdpS-34" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_server;" vertex="1" parent="1">
-          <mxGeometry x="720" y="260" width="42.5" height="50" as="geometry" />
+          <mxGeometry x="720" y="240" width="42.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3pEdMvApePRyuASavdpS-35" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=11;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -160,14 +160,17 @@
         <mxCell id="3pEdMvApePRyuASavdpS-44" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.server_4;" vertex="1" parent="1">
           <mxGeometry x="1180" y="700" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="3pEdMvApePRyuASavdpS-45" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;8c/32G/300G&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="810" width="110" height="20" as="geometry" />
+        <mxCell id="3pEdMvApePRyuASavdpS-45" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;8c/32G/300G&lt;br&gt;192.168.61.156/157&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="800" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3pEdMvApePRyuASavdpS-46" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="910" y="410" as="sourcePoint" />
             <mxPoint x="950" y="660" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3pEdMvApePRyuASavdpS-48" value="&lt;b style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;8c/32G/300G&lt;br&gt;192.168.60.1，192.168.61.154&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="590" y="370" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
