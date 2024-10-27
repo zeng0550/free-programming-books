@@ -109,7 +109,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bPBAx1BesUCjRGOTv0Cr-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;wukong-03&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;tcp-IN:9200，9300&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bPBAx1BesUCjRGOTv0Cr-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;wukong-03&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;tcp-IN:19000&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="481" y="570" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="bPBAx1BesUCjRGOTv0Cr-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;strokeColor=#0756f2;" edge="1" parent="1">
@@ -140,6 +140,48 @@
             <mxPoint x="640" y="565" as="sourcePoint" />
             <mxPoint x="640" y="685" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bPBAx1BesUCjRGOTv0Cr-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;wukong-02&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;tcp-IN:3306，6379&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="568" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bPBAx1BesUCjRGOTv0Cr-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;配置中心&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="570" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bPBAx1BesUCjRGOTv0Cr-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.003;exitY=0.36;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bPBAx1BesUCjRGOTv0Cr-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="598" as="sourcePoint" />
+            <mxPoint x="640" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bPBAx1BesUCjRGOTv0Cr-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="bPBAx1BesUCjRGOTv0Cr-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="450" as="sourcePoint" />
+            <mxPoint x="680" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bPBAx1BesUCjRGOTv0Cr-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;报表展示&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="410" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bPBAx1BesUCjRGOTv0Cr-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;wukong-03&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;tcp-IN:9200，9300&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="780" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bPBAx1BesUCjRGOTv0Cr-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.58;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bPBAx1BesUCjRGOTv0Cr-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="755" as="sourcePoint" />
+            <mxPoint x="500" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bPBAx1BesUCjRGOTv0Cr-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.58;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="824.5" as="sourcePoint" />
+            <mxPoint x="849" y="657" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bPBAx1BesUCjRGOTv0Cr-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;时序数据库&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="780" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
