@@ -10,7 +10,7 @@
             <mxPoint x="1320" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nR5cq5G-QuZC98VyTHqy-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;负载轮询/证书卸载&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+        <mxCell id="nR5cq5G-QuZC98VyTHqy-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;负载轮询&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="910" y="210" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nR5cq5G-QuZC98VyTHqy-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -43,7 +43,7 @@
             <mxPoint x="1310" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nR5cq5G-QuZC98VyTHqy-15" value="&lt;h1&gt;DMZ区&lt;/h1&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nR5cq5G-QuZC98VyTHqy-15" value="&lt;h1&gt;代理&lt;/h1&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1440" y="290" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nR5cq5G-QuZC98VyTHqy-16" value="&lt;h1&gt;浙江省内各行社办公网区&lt;/h1&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
