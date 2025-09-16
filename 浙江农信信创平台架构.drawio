@@ -1,13 +1,13 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.2">
   <diagram name="第 1 页" id="fRZ8ShiV0TNP0a3at-AO">
-    <mxGraphModel dx="1234" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#e4254b;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="300" as="sourcePoint" />
-            <mxPoint x="1290" y="300" as="targetPoint" />
+            <mxPoint x="1510" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-2" value="&lt;h3&gt;&lt;font color=&quot;#3399ff&quot;&gt;Internet区&lt;/font&gt;&lt;/h3&gt;" style="text;strokeColor=none;fillColor=default;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
@@ -50,28 +50,10 @@
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-16" value="域名到web隔离区的&lt;div&gt;CLB地址：39.170.33.121&lt;/div&gt;&lt;div&gt;8588、10100、10200&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="620" y="360" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="850" y="660" as="sourcePoint" />
-            <mxPoint x="900" y="610" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="850" y="660" as="sourcePoint" />
-            <mxPoint x="900" y="610" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="850" y="660" as="sourcePoint" />
-            <mxPoint x="900" y="610" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="850" y="660" as="sourcePoint" />
-            <mxPoint x="900" y="610" as="targetPoint" />
+            <mxPoint x="719.5" y="565" as="sourcePoint" />
+            <mxPoint x="720" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -82,6 +64,30 @@
         </mxCell>
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-22" value="隔离区服务器：10.50.0.60、10.50.0.66、10.50.0.83&lt;div&gt;8588、10100、10200&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="620" y="500" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;web隔离区到应用服务器的CLB地址：158.245.67.64&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;8588、10100、10200&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="630" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#e4254b;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="730" as="sourcePoint" />
+            <mxPoint x="1510" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-25" value="&lt;h3&gt;&lt;font color=&quot;#3399ff&quot;&gt;应用服务区&lt;/font&gt;&lt;/h3&gt;" style="text;strokeColor=none;fillColor=default;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="800" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-26" value="信创机房" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="900" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="719.5" y="700" as="sourcePoint" />
+            <mxPoint x="719.5" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-30" value="&lt;div&gt;报表+数据接收服务&lt;/div&gt;&lt;div&gt;器3台&lt;/div&gt;&lt;div&gt;158.245.66.156、158.245.66.76、158.245.66.218&lt;/div&gt;&lt;div&gt;10100、&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;10200、8080&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="610" y="800" width="240" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
