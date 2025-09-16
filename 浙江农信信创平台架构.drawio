@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.2">
   <diagram name="第 1 页" id="fRZ8ShiV0TNP0a3at-AO">
-    <mxGraphModel dx="1234" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1299" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,8 +13,8 @@
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-2" value="&lt;h3&gt;&lt;font color=&quot;#3399ff&quot;&gt;Internet区&lt;/font&gt;&lt;/h3&gt;" style="text;strokeColor=none;fillColor=default;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="1350" y="220" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-5" value="&lt;div&gt;数据上传&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="414" y="230" width="60" height="20" as="geometry" />
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-5" value="&lt;div&gt;数据上传&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="165" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-7" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="110" width="240" height="130" as="geometry" />
@@ -38,8 +38,8 @@
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-12" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="100" width="240" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-13" value="丰收互联手机银行&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;APP H5页面性能数据上传地址，包括8588端口&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;strokeWidth=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="960" y="140" width="140" height="60" as="geometry" />
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;丰收互联手机银行&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;APP H5页面性能数据上传地址，包括8588端口&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;strokeWidth=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="950" y="140" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -77,8 +77,8 @@
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-25" value="&lt;h3&gt;&lt;font color=&quot;#3399ff&quot;&gt;应用服务区&lt;/font&gt;&lt;/h3&gt;" style="text;strokeColor=none;fillColor=default;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="1350" y="800" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-26" value="信创机房" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="900" width="100" height="30" as="geometry" />
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-26" value="信创机房" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="270" y="750" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -207,6 +207,19 @@
               <mxPoint x="830" y="1240" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yx4_NXuCyVAaxgpNtZVl-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="1100" as="sourcePoint" />
+            <mxPoint x="650" y="1490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="1073" />
+              <mxPoint x="550" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-61" value="隔离区地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="370" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
