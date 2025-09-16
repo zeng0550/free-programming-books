@@ -13,17 +13,27 @@
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-2" value="&lt;h3&gt;&lt;font color=&quot;#3399ff&quot;&gt;Internet区&lt;/font&gt;&lt;/h3&gt;" style="text;strokeColor=none;fillColor=default;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="1350" y="220" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-3" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="200" width="40" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-4" value="浙江民泰手机银行&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="790" y="230" width="100" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-5" value="&lt;div&gt;数据上传&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="414" y="230" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-6" value="&lt;div&gt;App&amp;nbsp; SDK&lt;/div&gt;&lt;br&gt;&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="600" y="230" width="80" height="20" as="geometry" />
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-7" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="100" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-8" value="丰收互联手机银行&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;strokeWidth=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="720" y="140" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="220" as="sourcePoint" />
+            <mxPoint x="740" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="330" />
+              <mxPoint x="740" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-10" value="&lt;h3&gt;&lt;font color=&quot;#3399ff&quot;&gt;Web区&lt;/font&gt;&lt;/h3&gt;" style="text;strokeColor=none;fillColor=default;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="410" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
