@@ -17,23 +17,38 @@
           <mxGeometry x="414" y="230" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-7" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="100" width="240" height="130" as="geometry" />
+          <mxGeometry x="520" y="110" width="240" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-8" value="丰收互联手机银行&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;strokeWidth=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="720" y="140" width="130" height="50" as="geometry" />
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-8" value="丰收互联手机银行&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;&lt;div&gt;APP性能数据上传地址&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;strokeWidth=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="590" y="150" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="790" y="220" as="sourcePoint" />
-            <mxPoint x="740" y="370" as="targetPoint" />
+            <mxPoint x="1040" y="220" as="sourcePoint" />
+            <mxPoint x="820" y="400" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="790" y="330" />
-              <mxPoint x="740" y="330" />
+              <mxPoint x="1040" y="330" />
+              <mxPoint x="1040" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Yx4_NXuCyVAaxgpNtZVl-10" value="&lt;h3&gt;&lt;font color=&quot;#3399ff&quot;&gt;Web区&lt;/font&gt;&lt;/h3&gt;" style="text;strokeColor=none;fillColor=default;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="1350" y="410" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-12" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="100" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-13" value="丰收互联手机银行&lt;span class=&quot;eusoft-eudic-chrome-extension-translate-content&quot;&gt;&lt;/span&gt;&lt;div&gt;APP H5页面性能数据上传地址&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;strokeWidth=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="970" y="140" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="654.5" y="240" as="sourcePoint" />
+            <mxPoint x="655" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yx4_NXuCyVAaxgpNtZVl-16" value="域名到web隔离区的&lt;div&gt;CLB地址：39.170.33.121&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="620" y="360" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
