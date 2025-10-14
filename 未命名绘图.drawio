@@ -27,8 +27,8 @@
         </mxCell>
         <mxCell id="QaqNSciwARP0EgmK8UMN-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="550" as="sourcePoint" />
-            <mxPoint x="1110" y="550" as="targetPoint" />
+            <mxPoint x="300" y="670" as="sourcePoint" />
+            <mxPoint x="1110" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QaqNSciwARP0EgmK8UMN-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -68,15 +68,60 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QaqNSciwARP0EgmK8UMN-16" value="Collector01" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="250" width="90" height="50" as="geometry" />
+          <mxGeometry x="540" y="270" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QaqNSciwARP0EgmK8UMN-17" value="Collector02" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="250" width="90" height="50" as="geometry" />
+          <mxGeometry x="660" y="270" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QaqNSciwARP0EgmK8UMN-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="230" as="sourcePoint" />
             <mxPoint x="790" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QaqNSciwARP0EgmK8UMN-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="360" as="sourcePoint" />
+            <mxPoint x="790" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QaqNSciwARP0EgmK8UMN-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="360" as="sourcePoint" />
+            <mxPoint x="510" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QaqNSciwARP0EgmK8UMN-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="360" as="sourcePoint" />
+            <mxPoint x="790" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QaqNSciwARP0EgmK8UMN-22" value="Collector集群" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="240" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QaqNSciwARP0EgmK8UMN-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="294.5" as="sourcePoint" />
+            <mxPoint x="870" y="294.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QaqNSciwARP0EgmK8UMN-24" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: 宋体;&quot;&gt;&lt;font&gt;Vb-APM-DataShow01&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: 宋体;&quot;&gt;&lt;font&gt;tcp-IN:10199/10499&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="222.5" width="140" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="QaqNSciwARP0EgmK8UMN-25" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: 宋体;&quot;&gt;&lt;font&gt;Vb-APM-DataShow02&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: 宋体;&quot;&gt;&lt;font&gt;tcp-IN:10199/10499&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="320" width="140" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="QaqNSciwARP0EgmK8UMN-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="210" as="sourcePoint" />
+            <mxPoint x="1080" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QaqNSciwARP0EgmK8UMN-27" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="410" as="sourcePoint" />
+            <mxPoint x="1080" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
