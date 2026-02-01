@@ -4,8 +4,8 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" value="Lamp doesn&#39;t work" vertex="1">
-          <mxGeometry height="40" width="120" x="280" y="230" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" value="Mbank系统" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="180" as="geometry" />
         </mxCell>
         <mxCell id="G9hgwVdYi3kspmS4rZpm-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" value="" vertex="1">
           <mxGeometry height="90" width="60" x="310" y="50" as="geometry" />
@@ -13,11 +13,20 @@
         <mxCell id="G9hgwVdYi3kspmS4rZpm-1" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G9hgwVdYi3kspmS4rZpm-0" style="endArrow=classic;html=1;rounded=0;exitX=0.492;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="339.5" y="160" as="sourcePoint" />
-            <mxPoint x="339.5" y="230" as="targetPoint" />
+            <mxPoint x="340" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9hgwVdYi3kspmS4rZpm-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;手机银行App&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="140" x="380" y="80" as="geometry" />
+        <mxCell id="G9hgwVdYi3kspmS4rZpm-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;手机银行App&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;已部署听云sdk&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="380" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G9hgwVdYi3kspmS4rZpm-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.apigateway;" value="" vertex="1">
+          <mxGeometry height="60" width="62.16" x="310" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="G9hgwVdYi3kspmS4rZpm-5" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="endArrow=classic;html=1;rounded=0;exitX=0.492;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="260" as="sourcePoint" />
+            <mxPoint x="470" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
