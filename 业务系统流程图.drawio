@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3322" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3527" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -69,6 +69,27 @@
             <mxPoint x="800" y="550" as="sourcePoint" />
             <mxPoint x="800" y="30" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="G9hgwVdYi3kspmS4rZpm-20" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-10.000000000000014" y="550" as="sourcePoint" />
+            <mxPoint x="800" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9hgwVdYi3kspmS4rZpm-21" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-10" y="30" as="sourcePoint" />
+            <mxPoint x="800" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9hgwVdYi3kspmS4rZpm-22" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="840" y="290" as="sourcePoint" />
+            <mxPoint x="990" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G9hgwVdYi3kspmS4rZpm-23" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="1、上述方案以听云探针获取前端数据为桥梁，用户最终通过日志方式实现前后端链路打通" vertex="1">
+          <mxGeometry height="100" width="240" x="1030" y="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
