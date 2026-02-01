@@ -29,13 +29,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="G9hgwVdYi3kspmS4rZpm-6" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;ESB系统&lt;/font&gt;" vertex="1">
-          <mxGeometry height="20" width="100" x="160" y="310" as="geometry" />
+          <mxGeometry height="20" width="100" x="450" y="310" as="geometry" />
         </mxCell>
         <mxCell id="G9hgwVdYi3kspmS4rZpm-7" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;1、Mbank系统到ESB系统通讯采用http协议，用户前端系统没有全局流水号概念。&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;2、若在Mbank系统部署听云探针，通过听云traceID字段，以日志方式打印到ESB系统日志。&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="420" x="380" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="G9hgwVdYi3kspmS4rZpm-8" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1、ESB系统与下游业务系统采用tcp协议通讯，" vertex="1">
-          <mxGeometry height="30" width="250" x="400" y="300" as="geometry" />
+        <mxCell id="G9hgwVdYi3kspmS4rZpm-8" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;1、ESB系统与下游业务系统通讯采用tcp协议，系统未在body体留出多余字段，若新增字段需要改造系统。（涉及范围大）&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;2、ESB系统与下游系统串联打通，通过日志方式将听云在前端拿到traceID与服务端的全局流水号进行关联（本质将前端ID与后端ID形成映射关系），&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="280" x="10" y="282.5" as="geometry" />
+        </mxCell>
+        <mxCell id="G9hgwVdYi3kspmS4rZpm-9" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="endArrow=classic;html=1;rounded=0;exitX=0.492;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.513;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="339.66" y="350" as="sourcePoint" />
+            <mxPoint x="340.00000000000006" y="419" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
