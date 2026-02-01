@@ -88,8 +88,8 @@
             <mxPoint x="990" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G9hgwVdYi3kspmS4rZpm-23" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="1、上述方案以听云探针获取前端数据为桥梁，用户最终通过日志方式实现前后端链路打通" vertex="1">
-          <mxGeometry height="100" width="240" x="1030" y="240" as="geometry" />
+        <mxCell id="G9hgwVdYi3kspmS4rZpm-23" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="1、上述方案以听云探针获取前端数据为桥梁，帮助前端和后端通过数据ID串联起来，用户最终通过日志方式实现前后端链路打通。" vertex="1">
+          <mxGeometry height="120" width="260" x="1030" y="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
