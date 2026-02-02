@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3527" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3765" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -34,7 +34,7 @@
         <mxCell id="G9hgwVdYi3kspmS4rZpm-7" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;1、Mbank系统到ESB系统通讯采用http协议，用户前端系统没有全局流水号概念。&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;2、若在Mbank系统部署听云探针，通过听云traceID字段与ESB系统全局流水号关&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;联匹配。&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="370" x="380" y="232.5" as="geometry" />
         </mxCell>
-        <mxCell id="G9hgwVdYi3kspmS4rZpm-8" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;1、ESB系统与下游业务系统通讯采用tcp协议，系统未在body体留出多余字段，若新增字段需要改造系统。（涉及范围大）&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;2、ESB系统与下游系统串联打通，通过日志方式将听云在前端拿到traceID与服务端的全局流水号进行关联（本质将前端ID与后端ID形成映射关系）。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;3、ESB系统会产生多个全局流水号，如何一个traceID与多个全局流水号做关联匹配，这个机制需要再讨论。&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="G9hgwVdYi3kspmS4rZpm-8" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;1、ESB系统与下游业务系统通讯采用tcp协议，系统未在body体留出多余字段，若新增字段需要改造系统。（涉及范围大）&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;2、ESB系统与下游系统串联打通，将听云的traceID与服务端的全局流水号进行关联（本质将前端ID与后端ID形成映射关系）。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;3、ESB系统会产生多个全局流水号，如何一个traceID与多个全局流水号做关联匹配，这个机制需要再讨论。&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="107.5" width="280" x="10" y="282.5" as="geometry" />
         </mxCell>
         <mxCell id="G9hgwVdYi3kspmS4rZpm-9" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="endArrow=classic;html=1;rounded=0;exitX=0.492;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.513;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
